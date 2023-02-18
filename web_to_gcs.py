@@ -10,7 +10,7 @@ from prefect import task, flow
 from prefect_gcp.cloud_storage import GcsBucket
 from prefect.tasks import task_input_hash
 
-# Currently this dict only suitable for FHV tripdata
+# Currently this dict only suitable for HHV tripdata
 DATETIME_COLUMNS = [
     'pickup_datetime', 'dropOff_datetime',
     'tpep_pickup_datetime', 'tpep_dropoff_datetime', 
