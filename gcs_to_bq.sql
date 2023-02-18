@@ -1,6 +1,6 @@
 -- Execute this query on BigQuery in the GCP console
 
--- Create External Tabel for FHV Tripdata
+-- Create External Tabel for FHV Tripdata Dataset
 CREATE OR REPLACE EXTERNAL TABLE `trips_data_all.external_fhv_tripdata`
 OPTIONS (
   format = 'PARQUET',
